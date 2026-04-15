@@ -1,1 +1,1 @@
-# GA_project
+# Genome_Analysis_Project
