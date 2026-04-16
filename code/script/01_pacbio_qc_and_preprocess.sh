@@ -15,7 +15,6 @@ module load NanoFilt/2.8.0-foss-2023b
 cd /home/dinghy/Genome_Analysis_Project
 
 # 1.quality control(before)
-mkdir -p analysis/output/fastqc_before
 fastqc data/genomics/pacbio/raw/*.subreads.fastq.gz \
     --outdir analysis/output/fastqc_before \
     --threads 2
@@ -30,7 +29,6 @@ done
 zcat data/genomics/pacbio/filtered/*.filtered.fastq.gz | gzip > data/genomics/pacbio/filtered/all_filtered.fastq.gz
 
 # 3.quality control(after)
-mkdir -p analysis/output/fastqc_after
 fastqc data/genomics/pacbio/filtered/all_filtered.fastq.gz \
     --outdir analysis/output/fastqc_after \
     --threads 2
