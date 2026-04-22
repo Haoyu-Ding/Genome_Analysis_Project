@@ -10,7 +10,5 @@
 module load prokka/1.14.5-gompi-2024a
 module list
 
-mkdir -p /home/dinghy/Genome_Analysis_Project/analysis/output/genomics_pacbio/prokka_annotation_out
-
 prokka --outdir /home/dinghy/Genome_Analysis_Project/analysis/output/genomics_pacbio/prokka_annotation_out \
-       --prefix paper1 --kingdom Bacteria --genus Enterococcus --species faecium /home/dinghy/Genome_Analysis_Project/analysis/output/genomics_pacbio/canu_assembly_out/efm.contigs.fasta
+       --prefix efm --kingdom Bacteria --genus Enterococcus --species faecium /home/dinghy/Genome_Analysis_Project/analysis/output/genomics/pacbio/canu_assembly_output/efm.contigs.fasta
