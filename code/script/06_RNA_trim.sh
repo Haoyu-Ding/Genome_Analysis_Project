@@ -2,7 +2,7 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 2
-#SBATCH -t 02:00:00
+#SBATCH -t 28:00:00
 #SBATCH -J RNA_trim
 #SBATCH --mail-type=ALL
 #SBATCH --output=%x.%j.out
