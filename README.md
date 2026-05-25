@@ -1,6 +1,6 @@
 # Genome_Analysis_Project
 
-This repository contains my Genome Analysis project based on **Paper I: Zhang et al. (2017)**,  
+This repository contains my Genome Analysis project based on **[RNA-seq and Tn-seq reveal fitness determinants of vancomycin-resistant Enterococcus faecium during growth in human serum](https://link.springer.com/article/10.1186/s12864-017-4299-9) written by Zhang Zhang et al. (2017)**,  
 *RNA-seq and Tn-seq reveal fitness determinants of vancomycin-resistant Enterococcus faecium during growth in human serum*.
 
 ## Project overview
