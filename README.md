@@ -3,6 +3,10 @@
 This repository contains my Genome Analysis project based on **[RNA-seq and Tn-seq reveal fitness determinants of vancomycin-resistant Enterococcus faecium during growth in human serum](https://link.springer.com/article/10.1186/s12864-017-4299-9) written by Zhang Zhang et al. (2017)**,  
 *RNA-seq and Tn-seq reveal fitness determinants of vancomycin-resistant Enterococcus faecium during growth in human serum*.
 
+## Main biological question
+
+How does the vancomycin-resistant clinical isolate *E. faecium* E745 survive and adapt to growth in a host-associated serum environment?
+
 ## Project overview
 
 The goal of this project is to investigate how *Enterococcus faecium* E745 adapts to growth in heat-inactivated human serum compared with rich BHI medium.
@@ -24,9 +28,17 @@ In addition, I also performed an extra analysis:
 
 This project reproduces the **genome assembly and RNA-seq** parts of the original paper, but **does not include the Tn-seq experiments**. Therefore, the transcriptomic results identify candidate genes and pathways associated with serum adaptation, but do not by themselves prove which genes are essential for growth in serum.
 
-## Main biological question
+## Candidate genes and pathways
 
-How does the vancomycin-resistant clinical isolate *E. faecium* E745 survive and adapt to growth in a host-associated serum environment?
+The differential expression analysis suggests that adaptation of *E. faecium* E745 to serum is associated with several candidate biological themes:
+
+- remodeling of carbohydrate uptake and metabolism
+- possible host-associated nutrient scavenging
+- changes in translation- and growth-related cellular functions
+
+Representative candidate genes include `glcU_1`, `gdhIV`, `fruA_1`, `lacC_1`, `glcR`, `yfiY`, `argS`, `rpsB`, and `tig`.
+
+These genes should be interpreted as **candidate genes associated with serum adaptation**, since this project reproduces the RNA-seq component of the original study but does not include the Tn-seq experiments required to identify serum-essential genes directly.
 
 ## Repository structure
 
